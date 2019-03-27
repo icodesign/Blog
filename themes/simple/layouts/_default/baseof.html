@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "html-head" . }}
+  {{ partial "inject/head" . }}
+</head>
+
+<body>
+  <div class="container flex mx-auto align-center">
+      {{ partial "header" . }}
+      {{ template "main" . }}
+  </div>
+  
+  {{ partial "inject/body" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+</body>
+
+</html>

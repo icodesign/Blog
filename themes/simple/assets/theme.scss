@@ -1,0 +1,166 @@
+@import "variables";
+@import "markdown";
+@import "utils";
+
+html {
+  font-size: $font-size-base;
+  letter-spacing: 0.33px;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-width: $body-min-width;
+  overflow-x: hidden;
+}
+
+body {
+  color: $body-font-color;
+  background: $body-background;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', "Microsoft YaHei New", STHeiti Light, sans-serif !important;
+  font-weight: $body-font-weight;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  box-sizing: border-box;
+  * {
+    box-sizing: inherit;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: $color-link;
+  border-bottom: 1px dashed #9B59B6;
+
+  &:hover, &:visited, &:link, &:active {
+    text-decoration: none !important;
+  }
+
+  &:visited {
+    color: $color-visited-link;
+  }
+
+  &:hover {
+    border-bottom: 1px dashed $color-link;
+  }
+}
+
+.container {
+  flex-direction: column;
+  min-width: $container-min-width;
+  max-width: $container-max-width;
+  margin: 0 auto;
+}
+
+.page-header {
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #F2F2F2;
+  margin-bottom: 1rem;
+  a {
+    border-bottom: none;
+  }
+}
+
+.menu {
+  padding: $padding-16 * 2 $padding-16;
+}
+
+.menu nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  li {
+    margin: 1em 0;
+  }
+
+  a {
+    color: #0c0c0c;
+    border-bottom: none;
+
+    &:hover {
+      opacity: .5;
+      border-bottom: none;
+    }
+  }
+}
+
+ul.pagination {
+  display: flex;
+  justify-content: center;
+
+  .page-item a {
+    padding: $padding-16;
+  }
+}
+
+.menu .menu-title {
+  font-size: 0.85rem;
+}
+
+.menu .menu-date {
+  font-size: 0.6rem;
+}
+
+footer {
+  margin-top: 5rem;
+  font-family: source sans pro,sans-serif;
+  padding: $padding-16 * 2 $padding-16;
+
+  p {
+    color: #808080;
+    text-align: center;
+    font-size: 0.6rem;
+    margin: 3px;
+  }
+
+  a {
+    color: #34495E;
+    border-bottom: none;
+
+    &:visited {
+      color: #34495E;
+    }
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
+  .cc4 {
+    width: 40px;
+    margin-bottom: 4px;
+  }
+}
+
+.post {
+  min-width: $body-min-width;
+  // max-width: $sm-breakpoint;
+  padding: $padding-16;
+
+  article {
+    padding-bottom: 8rem;
+    margin-bottom: 8rem;
+    border-bottom: 1px solid #F2F2F2;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }  
+}

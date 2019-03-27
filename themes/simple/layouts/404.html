@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "html-head" . }}
+  {{ partial "inject/head" . }}
+</head>
+
+<body>
+  <main class="flex justify-center">
+      <h1>404 Not Found</h1>
+  </main>
+
+  {{ partial "inject/body" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+</body>
+
+</html>
