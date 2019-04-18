@@ -8,6 +8,7 @@ disqusShortname = "icodesign"
 [params]
   Logo = "images/logo.svg"
   MenuPath = "/menu"
+  images = ["/images/site_image.jpeg"]
 
 [languages]
   [languages.en]
