@@ -43,9 +43,10 @@ $block-border-radius: 0.15rem;
   }
 
   blockquote {
-    border-left: $padding-1*2 solid $gray-300;
+    border-left: $padding-1*4 solid $gray-300;
     margin: 0;
-    padding: $padding-1 $padding-16;
+    padding: $padding-8 $padding-16;
+    background: #F9FBFB;
 
     :first-child { margin-top: 0; }
     :last-child { margin-bottom: 0; }
