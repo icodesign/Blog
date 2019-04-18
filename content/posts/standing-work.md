@@ -7,7 +7,7 @@ date: 2017-04-18T21:39:54+08:00
 
 在佩戴 Apple Watch 的日子里，它都忠实地记录了下这一切，基本都完成了每天站立 12 小时的目标（即一天内有 12 个小时每小时都站立超过一定时间）。这一年下来，我感觉良好，腰酸和脖子酸的情况大幅减少。有什么缺点吗，我暂时还想不出来，当然我推荐不要长时间站立，保持站坐结合，坐的时间应略长一些。在可预期的未来，我应该会继续『站立办公』下去。
 
-![stand_history](/images/standing-work/stand_history.jpeg)
+![stand_history](https://www.icodesign.me/images/standing-work/stand_history.jpeg)
 
 很多人在尝试站立办公的时候，都会有一个烦恼，就是会经常沉迷代码，忘记站起来。我在早期的时候，使用了一款免费的小 app —— [Stand](https://getstandapp.com/) 来提醒我该站起来了，大约站半小时坐一小时这样的节奏。随着站立的习惯慢慢形成，也就不需要 app 来提醒了，身体会自然地告诉我什么时候站什么时候坐。
 
@@ -17,7 +17,7 @@ date: 2017-04-18T21:39:54+08:00
 
 ## 小型可折叠支架
 
-![stand_desk1](/images/standing-work/stand_desk1.png)
+![stand_desk1](https://www.icodesign.me//images/standing-work/stand_desk1.png)
 
 在公司最早在试验的时候，我从淘宝购买了一种简易可调节高度的笔记本支架（类似于图中这种，但比这个稍微高级点）。很显然，它的优势就是：
 
@@ -33,7 +33,7 @@ date: 2017-04-18T21:39:54+08:00
 
 ## 中型升降台
 
-![stand_desk2](/images/standing-work/stand_desk2.png)
+![stand_desk2](https://www.icodesign.me//images/standing-work/stand_desk2.png)
 
 同样在公司，后面我切换了老婆之前用的『乐歌升降台』，就是上图中的这个家伙，也是我目前仍旧使用的方案。
 
@@ -43,6 +43,6 @@ date: 2017-04-18T21:39:54+08:00
 
 ## 升降桌
 
-![stand_desk3](/images/standing-work/stand_desk3.png)
+![stand_desk3](https://www.icodesign.me//images/standing-work/stand_desk3.png)
 
 毫无疑问，这是站立办公的最佳解决方案，也是目前我家中的配置。无缝切换站立、坐下的状态，自由调节高度，宽敞的桌面空间，都能带来极大的幸福感。我认为升降桌将逐渐和人体工程学椅一样成为工程师的标配。如果 2019 你家要装修，别忘了给自己配个升降桌。
