@@ -1,6 +1,6 @@
 ---
 title: "站立办公"
-date: 2017-04-18T21:39:54+08:00
+date: 2019-04-18T21:39:54+08:00
 description: "2018 年，我践行了一整年『站立办公』。在这个过程中，我尝试了三种不同的装备。"
 images: 
 - /images/standing-work/stand_history.jpeg
