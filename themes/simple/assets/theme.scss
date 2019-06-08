@@ -17,6 +17,7 @@ body {
 body {
   color: $body-font-color;
   background: $body-background;
+  max-width: 100%;
 
   font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', "Microsoft YaHei New", STHeiti Light, sans-serif !important;
   font-weight: $body-font-weight;
