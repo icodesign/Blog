@@ -3,6 +3,7 @@ headless: true
 ---
 
 - <strong class="menu-title" style="color:#2980B9;">文章</strong>
+    - <span class="menu-date">Jun 07, 2019</span> [Swift Combine 入门导读]({{< relref "/posts/swift-combine.md" >}})
     - <span class="menu-date">Apr 18, 2019</span> [站立办公]({{< relref "/posts/standing-work.md" >}})
     - <span class="menu-date">Dec 18, 2018</span> [尝试做了一款小程序]({{< relref "/posts/weapp-first-attempt.md" >}})
     - <span class="menu-date">Arp 23, 2017</span> [祭奠死去的 Potatso 1]({{< relref "/posts/mourn-potatso1.md" >}})

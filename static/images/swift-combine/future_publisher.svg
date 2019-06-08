@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="486px" height="205px" viewBox="0 0 486 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>future_publisher</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="36.2507156%" cy="27.4181659%" fx="36.2507156%" fy="27.4181659%" r="77.0742045%" gradientTransform="translate(0.362507,0.274182),scale(1.000000,0.999721),rotate(143.806919),translate(-0.362507,-0.274182)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FF0000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-8" transform="translate(-7.000000, -8.000000)">
+            <path id="path3003-copy" d="M411.833333,168.47347 L65.043122,168.47347 L65.043122,166.191846 L411.833333,166.191846 L411.833333,159.6286 L426.833333,167.332658 L411.833333,175.036716 L411.833333,168.47347 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path d="M257.884971,167.332658 C257.886747,173.703061 254.489198,179.590316 248.972563,182.77603 C243.455929,185.961745 236.658642,185.961745 231.142007,182.77603 C225.625372,179.590316 222.227823,173.703061 222.2296,167.332658 C222.227823,160.962255 225.625372,155.075 231.142007,151.889286 C236.658642,148.703571 243.455929,148.703571 248.972563,151.889286 C254.489198,155.075 257.886747,160.962255 257.884971,167.332658 Z" id="path4428-copy-2" stroke="#000000" stroke-width="2.7731958" fill="url(#radialGradient-1)" fill-rule="nonzero"></path>
+            <path d="M240.057285,94.74264 L239.335905,143.5" id="path5986-7-59" stroke="#000000" stroke-width="1.93039834" stroke-dasharray="5.7911949,5.7911949"></path>
+            <path d="M335.186477,94.74264 L334.465097,143.5" id="path5986-7-59-copy" stroke="#000000" stroke-width="1.93039834" stroke-dasharray="5.7911949,5.7911949"></path>
+            <rect id="rect4418" stroke="#000000" stroke-width="2.026" fill="#FFFFFF" fill-rule="nonzero" x="65.043122" y="29.5" width="358" height="58.015823"></rect>
+            <text id="Future(" fill="#000000" font-family="Helvetica" font-size="20" font-weight="normal">
+                <tspan x="93.6984942" y="65.5079115">Future(</tspan>
+            </text>
+            <text id=")" font-family="Helvetica" font-size="20" font-weight="normal" fill="#000000">
+                <tspan x="382" y="66">)</tspan>
+            </text>
+            <path id="path3003-copy" d="M360.01981,62.4734696 L164.186477,62.4734696 L164.186477,60.1918464 L360.01981,60.1918464 L360.01981,53.6286002 L375.01981,61.332658 L360.01981,69.0367158 L360.01981,62.4734696 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path d="M257.884971,61.332658 C257.886747,67.7030608 254.489198,73.5903159 248.972563,76.7760302 C243.455929,79.9617446 236.658642,79.9617446 231.142007,76.7760302 C225.625372,73.5903159 222.227823,67.7030608 222.2296,61.332658 C222.227823,54.9622553 225.625372,49.0750001 231.142007,45.8892858 C236.658642,42.7035714 243.455929,42.7035714 248.972563,45.8892858 C254.489198,49.0750001 257.886747,54.9622553 257.884971,61.332658 Z" id="path4428-copy" stroke="#000000" stroke-width="2.7731958" fill="url(#radialGradient-1)" fill-rule="nonzero"></path>
+            <path d="M335.186477,47.948138 L335.186477,74.717178" id="path6773-1" stroke="#000000" stroke-width="2"></path>
+            <path d="M334.465097,153.948138 L334.465097,180.717178" id="path6773-1-copy" stroke="#000000" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

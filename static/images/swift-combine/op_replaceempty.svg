@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="511px" height="280px" viewBox="0 0 511 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>op_replaceempty</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="36.2507156%" cy="27.4181659%" fx="36.2507156%" fy="27.4181659%" r="77.0742045%" gradientTransform="translate(0.362507,0.274182),scale(1.000000,0.999721),rotate(143.806919),translate(-0.362507,-0.274182)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#0000FF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-20" transform="translate(-72.000000, -24.000000)">
+            <path id="path3003-copy" d="M467.733543,64.0581504 L183.900191,64.5253315 L183.896435,62.2437115 L467.729788,61.7765304 L467.718985,55.213293 L482.731645,62.8926509 L467.744346,70.6213878 L467.733543,64.0581504 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path d="M399.755453,50 L399.755453,76.769043" id="path6773-7" stroke="#000000" stroke-width="2"></path>
+            <path d="M443,231.085576 L443,257.854619" id="path6773-7-copy" stroke="#000000" stroke-width="2"></path>
+            <rect id="rect4418" stroke="#000000" stroke-width="2.026" fill="#FFFFFF" fill-rule="nonzero" x="183.898313" y="120.602413" width="298" height="58.015823"></rect>
+            <text id="replaceEmpty" fill="#000000" font-family="Helvetica" font-size="20" font-weight="normal">
+                <tspan x="256" y="155.580081">replaceEmpty </tspan>
+            </text>
+            <path d="M399.261639,180.473226 L398.540259,229.230586" id="path5986-7-59-copy-9" stroke="#000000" stroke-width="1.93039834" stroke-dasharray="5.7911949,5.7911949"></path>
+            <path id="path3003-copy-2" d="M466.833333,247.585725 L183,247.585725 L183,245.304102 L466.833333,245.304102 L466.833333,238.740856 L481.833333,246.444914 L466.833333,254.148971 L466.833333,247.585725 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path d="M431.067604,149.610324 C431.069381,155.980727 427.671832,161.867982 422.155197,165.053696 C416.638562,168.239411 409.841275,168.239411 404.324641,165.053696 C398.808006,161.867982 395.410457,155.980727 395.412233,149.610324 C395.410457,143.239921 398.808006,137.352666 404.324641,134.166952 C409.841275,130.981237 416.638562,130.981237 422.155197,134.166952 C427.671832,137.352666 431.069381,143.239921 431.067604,149.610324 Z" id="path4428-7-3-copy-3" stroke="#000000" stroke-width="2.7731958" fill="url(#radialGradient-1)" fill-rule="nonzero"></path>
+            <path d="M416.367945,248.918234 C416.369721,255.288636 412.972172,261.175891 407.455538,264.361606 C401.938903,267.54732 395.141616,267.54732 389.624981,264.361606 C384.108346,261.175891 380.710797,255.288636 380.712574,248.918234 C380.710797,242.547831 384.108346,236.660576 389.624981,233.474861 C395.141616,230.289147 401.938903,230.289147 407.455538,233.474861 C412.972172,236.660576 416.369721,242.547831 416.367945,248.918234 Z" id="path4428-7-3-copy-4" stroke="#000000" stroke-width="2.7731958" fill="url(#radialGradient-1)" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
