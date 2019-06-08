@@ -684,7 +684,7 @@ func removeDuplicates(by predicate: @escaping (Self.Output, Self.Output) -> Bool
 
 ### subscribe(on:)/receiveOn(on:)
 
-在前面的介绍中，我们都没有提及到线程的管理。一种非常常见的场景是我们希望耗时的操作在移步执行，操作完成后在主线程发布值更新的消息，以便于我们直接更新到 UI 控件上。在 Combine 中，这是通过 `Scheduler` 来实现的，`Scheduler` 定义了什么时候以及怎么去执行操作，例如区分后台线程和主线程。
+在前面的介绍中，我们都没有提及到线程的管理。一种非常常见的场景是我们希望耗时的操作在异步执行，操作完成后在主线程发布值更新的消息，以便于我们直接更新到 UI 控件上。在 Combine 中，这是通过 `Scheduler` 来实现的，`Scheduler` 定义了什么时候以及怎么去执行操作，例如区分后台线程和主线程。
 
 `subscribe(on:)` 指定了 Publisher 在某个 `Scheduler` 执行，而 `receiveOn(on:) ` 指定了 Publisher 在哪个 `Scheduler` 发出通知。 
 
