@@ -320,7 +320,7 @@ public protocol Subscriber : CustomCombineIdentifierConvertible {
 
 这里也可以看出，Publisher 发出的通知有三种类型：
 
-- Subscription：Subscriber 成功订阅的消息，只会发送一次
+- Subscription：Subscriber 成功订阅的消息，只会发送一次，取消订阅会调用它的 `Cancel` 方法来释放资源
 - Value（Subscriber 的 Input，Publisher 中的 Output）：真正的数据，可能发送 0 次或多次
 - Completion：数据流终止的消息，包含两种类型：`.finished` 和 `.failure(Error)`，最多发送一次，一旦发送了终止消息，这个数据流就断开了，当然有的数据流可能永远没有终止
 
@@ -493,6 +493,84 @@ class StudentManager {
         self.namePublisher = namePublisher
     }
 }
+```
+
+`AnyPublisher`、`AnySubscriber`、`AnySubject` 的另外一个实用场景是创建自定义的 Publisher/Subscriber/Subject，因为在框架中它们已经是实现好相应的协议了。
+
+```swift
+let justPubliser = AnyPublisher<String, NSError> { subscribe in
+    _ = subscribe.receive("hello")  // ignore demand
+    subscribe.receive(completion: .finished)
+}
+let subscriber = AnySubscriber<String, NSError>(receiveValue: { input in
+    print("Received input: \(input)")
+    return .unlimited
+}, receiveCompletion: { completion in
+    print("Completed with \(completion)")
+})
+justPubliser.subscribe(subscriber)
+
+// Received input: hello
+// Completed with finished
+```
+
+### Cancellable
+
+让我们回到上文提到的 `Future` 的一个例子：
+
+```swift
+let apiRequest = Publishers.Future { promise in
+    URLSession.shared.dataTask(with: url) { data, _, _ in
+        promise(.success(data))
+    }.resume()
+}
+```
+
+它似乎能够很好的工作，但是一个比较经典的场景是：用户上传某个文件，上传到一半发现选错了就点击取消，我们也应该取消这个上传。类似的还有一些临时生成的资源需要在取消订阅时释放。这在 Combine 中该怎么实现呢？
+
+Combine 中提供了 `Cancellable` 这个协议。定义很简单：
+
+```swift
+protocol Cancellable {
+    /// Cancel the activity.
+    func cancel()
+}
+```
+
+前面我们提到 Publisher 在被订阅时会给 Subscriber 发送一个 `Subscription` 消息，这个 `Subscription` 恰好也实现了 `Cancellable` 协议，在取消订阅时，会调用它的 `cancel` 方法。
+
+这样，我们就可以实现一个简单的例子：
+
+```swift
+struct AnySubscription: Subscription {
+    private let cancellable: Cancellable
+
+    init(_ cancel: @escaping () -> Void) {
+        cancellable = AnyCancellable(cancel)
+    }
+
+    func cancel() {
+        cancellable.cancel()
+    }
+}
+
+let downloadPublisher = AnyPublisher<Data?, Never> { subscribe in
+    let task = URLSession.shared.uploadTask(with: request, fromFile: file) { (data, _, _) in
+        _ = subscribe.receive(data) // ignore demand
+        subscribe.receive(completion: .finished)
+    }
+    let subscription = AnySubscription {
+        task.cancel()
+    }
+    subscribe.receive(subscription: subscription)
+    task.resume()
+}
+let cancellable = downloadPublisher.sink { data in
+    print("Received data: \(data)")
+}
+
+// Cancel the task before it finishes
+cancellable.cancel()
 ```
 
 ## 操作符
