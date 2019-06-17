@@ -3,7 +3,7 @@ title: "Swift Combine 入门导读"
 date: 2019-06-08T23:21:54+08:00
 description: "WWDC 2019 毫无疑问是近年来最好的一届。Apple 为了拉拢开发者做出了很多努力，从史上最强工作站 Mac Pro, 到更方便的平台互通 Project Catalyst，再到现代化的界面语言 SwiftUI，当然，以及本文将要介绍的基于 Swift 的 Combine 框架。"
 images: 
-- /images/swift-combine/op_scan.svg
+- /images/swift-combine/swift_combine.png
 ---
 
 WWDC 2019 毫无疑问是近年来最好的一届。Apple 为了拉拢开发者做出了很多努力，从史上最强工作站 [Mac Pro](https://www.apple.com/mac-pro/), 到更方便的平台互通 [Project Catalyst](https://developer.apple.com/ipad-apps-for-mac/)，再到现代化的界面语言 [SwiftUI](https://developer.apple.com/xcode/swiftui/)，当然，以及本文将要介绍的基于 Swift 的 [Combine](https://developer.apple.com/documentation/combine) 框架。
