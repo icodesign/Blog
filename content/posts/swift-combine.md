@@ -750,16 +750,6 @@ func contains(_ output: Self.Output) -> Publishers.Contains<Self>
 
 ![subscriber](/images/swift-combine/op_contains.svg)
 
-### removeDuplicates
-
-`removeDuplicates` 会跳过在之前已经出现过的值。
-
-```swift
-func removeDuplicates(by predicate: @escaping (Self.Output, Self.Output) -> Bool) -> Publishers.RemoveDuplicates<Self>
-```
-
-![subscriber](/images/swift-combine/op_removeduplicates.svg)
-
 ### subscribe(on:)/receiveOn(on:)
 
 在前面的介绍中，我们都没有提及到线程的管理。一种非常常见的场景是我们希望耗时的操作在异步执行，操作完成后在主线程发布值更新的消息，以便于我们直接更新到 UI 控件上。在 Combine 中，这是通过 `Scheduler` 来实现的，`Scheduler` 定义了什么时候以及怎么去执行操作，例如区分后台线程和主线程。

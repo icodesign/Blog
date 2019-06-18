@@ -10,8 +10,10 @@
     <article class="markdown">
       {{- .Content -}}
     </article>
-
+    <div class="disqus"></div>
   </div>
   {{ partial "footer" . }}
 </main>
+{{ partial "disqus" . }}
+<script>disqusLoader( '.disqus', { scriptUrl: '//icodesign.disqus.com/embed.js' });</script>
 {{ end }}
