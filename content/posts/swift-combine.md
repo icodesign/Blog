@@ -198,7 +198,9 @@ extension NotificationCenter {
 }
 ```
 
-> 注意：在 beta 1 中这个 API 尚未开放，并且所有的和 Foundation framework 的集成都没有开放
+> <del>注意：在 beta 1 中这个 API 尚未开放，并且所有的和 Foundation framework 的集成都没有开放</del> 
+> 
+> 更新：在 beta 2 中已经支持
 
 这个 Publisher 提供的值就是 Notification 类型，而且永远不会产生错误（`Never`）。这个扩展非常有用，可以很方便地将任何 Notification 转换成 Publisher，便于我们将应用改造成 Reactive。
 
@@ -272,7 +274,9 @@ let apiRequest = Publishers.Future { promise in
 let delayedJustPublisher = justPubliser.delay(for: 2, scheduler: DispatchQueue.main)
 ```
 
-> 和前面一样，官方目前在 beta 1 中并没有提供有用的 Scheduler 实现，但 session 上的消息来看，RunLoop 和 GCD Queue 都会支持
+> <del>和前面一样，官方目前在 beta 1 中并没有提供有用的 Scheduler 实现，但 session 上的消息来看，RunLoop 和 GCD Queue 都会支持</del>
+> 
+> 更新：在 beta 2 中已经支持
 
 在文章的后半部分，我们将了解一些常用操作符以及它们的使用场景。
 
@@ -767,11 +771,9 @@ ioPerformingPublisher
 
 ![Scheduler](/images/swift-combine/scheduler.svg)
 
- `DispatchQueue` 和 `Runloop` 都已经实现了 `Scheduler` 协议，但是在 beta 1 中暂时还不可用。
-
 > 未完待续
 
-## 交流反馈
+## 其他
 
 关于 Combine 的反馈以及其他 iOS 开发技术的交流，欢迎私下联系：
 
