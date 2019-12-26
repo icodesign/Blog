@@ -546,28 +546,10 @@ protocol Cancellable {
 这样，我们就可以实现一个简单的例子：
 
 ```swift
-struct AnySubscription: Subscription {
-    private let cancellable: Cancellable
-
-    init(_ cancel: @escaping () -> Void) {
-        cancellable = AnyCancellable(cancel)
-    }
-
-    func cancel() {
-        cancellable.cancel()
-    }
-}
-
-let downloadPublisher = AnyPublisher<Data?, Never> { subscribe in
-    let task = URLSession.shared.uploadTask(with: request, fromFile: file) { (data, _, _) in
-        _ = subscribe.receive(data) // ignore demand
-        subscribe.receive(completion: .finished)
-    }
-    let subscription = AnySubscription {
-        task.cancel()
-    }
-    subscribe.receive(subscription: subscription)
-    task.resume()
+let downloadPublisher = Future { promise in
+    URLSession.shared.uploadTask(with: request, fromFile: file) { (data, _, _) in
+        promise(.success(data)) 
+    }.resume()
 }
 let cancellable = downloadPublisher.sink { data in
     print("Received data: \(data)")
