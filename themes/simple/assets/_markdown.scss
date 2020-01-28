@@ -54,9 +54,15 @@ $block-border-radius: 0.75rem;
 
   table {
     border-collapse:collapse;
+    overflow-x: auto;
+    display: block;
   }
 
-  table, th, tr, td {
+  th {
+    background-color: #F9FBFB;
+  }
+
+  th, tr, td {
     padding: $padding-8;
     border: 1px solid #D1D1D1;
   }
