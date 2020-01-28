@@ -24,3 +24,6 @@ googleAnalytics = "UA-38012898-4"
     title = "罐言罐语 icodesign"
     subtitle = "记录科技、编程、我的一些作品以及生活"
     keywords = "科技, 编程, swift, ios, 全栈"
+    
+[blackfriday]
+  extensions = ["hardLineBreak"]

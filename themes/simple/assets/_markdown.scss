@@ -52,7 +52,20 @@ $block-border-radius: 0.75rem;
     :last-child { margin-bottom: 0; }
   }
 
-  table tr td {
+  table {
+    border-collapse:collapse;
+  }
+
+  table, th, tr, td {
     padding: $padding-8;
+    border: 1px solid #D1D1D1;
+  }
+
+  hr {
+    color: #F2F2F2;
+    background-color: #F2F2F2;
+    border: none;
+    height: 1px;
+    margin: 30px 0;
   }
 }

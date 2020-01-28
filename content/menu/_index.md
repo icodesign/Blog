@@ -3,6 +3,7 @@ headless: true
 ---
 
 - <strong class="menu-title" style="color:#2980B9;">文章</strong>
+    - <span class="menu-date">Jan 28, 2020</span> [谈谈团队远程协作]({{< relref "/posts/remote-working.md" >}})
     - <span class="menu-date">Jun 07, 2019</span> [Swift Combine 入门导读]({{< relref "/posts/swift-combine.md" >}})
     - <span class="menu-date">Apr 18, 2019</span> [站立办公]({{< relref "/posts/standing-work.md" >}})
     - <span class="menu-date">Dec 18, 2018</span> [尝试做了一款小程序]({{< relref "/posts/weapp-first-attempt.md" >}})
