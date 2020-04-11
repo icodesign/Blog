@@ -18,3 +18,11 @@ headless: true
 
 <br />
 <br />
+
+- <strong class="menu-title" style="color:#208B73;">更多</strong>
+    - <a class="menu-more-row" href="https://icodesign.me/index.xml" target="_blank"><img src="/images/rss.svg" style="width:1rem;height:1rem;margin-right:6px;">RSS 订阅</a>
+    - <a class="menu-more-row" href="https://github.com/icodesign" target="_blank"><img src="/images/github.svg" style="width:1rem;height:1rem;margin-right:6px;">GitHub</a>
+    - <a class="menu-more-row" href="http://twitter.com/icodesign_me" target="_blank"><img src="/images/twitter_round.svg" style="width:1rem;height:1rem;margin-right:6px;">Twitter</a>
+
+<br />
+<br />
