@@ -4,10 +4,14 @@ theme = "simple"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 author = "icodesign"
 disqusShortname = "icodesign"
-pygmentsCodefences = true #高亮markdown的代码块
-pygmentsCodefencesGuessSyntax = true #高亮markdown中没有标注语言的代码块
-pygmentsStyle = 'xcode' #高亮主题
 googleAnalytics = "UA-38012898-4"
+
+#高亮markdown的代码块
+pygmentsCodefences = true 
+#高亮markdown中没有标注语言的代码块
+pygmentsCodefencesGuessSyntax = true 
+#高亮主题
+pygmentsStyle = 'xcode'
 
 [params]
   Logo = "images/logo.svg"
