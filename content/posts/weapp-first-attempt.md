@@ -17,7 +17,7 @@ date: 2018-12-18T17:28:12+08:00
 ## 花了多久？
 大约一个周末的时间完成主要功能和界面，后来断断续续花了 4~5 个小时来完善一些次要功能（比如根据城市选择五险一金自动计算，分月详情列表）
 
-<img src="/images/weapp-first-attempt/weapp_git_log.jpg" style="width:400px;">
+<img src="/images/weapp-first-attempt/weapp_git_log.jpg" style="width:400px;" alt="Git log of the app">
 
 ## 效果如何？
 这是一个纯玩票的小项目，我将把全部数据分享出来，供大家参考。
