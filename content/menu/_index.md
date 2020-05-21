@@ -9,20 +9,11 @@ headless: true
     - <span class="menu-date">Dec 18, 2018</span> [尝试做了一款小程序]({{< relref "/posts/weapp-first-attempt.md" >}})
     - <span class="menu-date">Arp 23, 2017</span> [祭奠死去的 Potatso 1]({{< relref "/posts/mourn-potatso1.md" >}})
 
-<br />
-<br />
-
 - <strong class="menu-title" style="color:#8E44AD;">项目</strong>
     - [Potasto for iOS - 强大的网络工具](https://download-lite.potatso.com)
     - [Cuto for iOS/Android - 为你挑选最适合的手机壁纸](https://itunes.apple.com/us/app/cuto-wallpaper/id1068086465?mt=8)
-
-<br />
-<br />
 
 - <strong class="menu-title" style="color:#208B73;">更多</strong>
     - <a class="menu-more-row" href="https://icodesign.me/index.xml" target="_blank"><img src="/images/rss.svg" style="width:1rem;height:1rem;margin-right:6px;">RSS 订阅</a>
     - <a class="menu-more-row" href="https://github.com/icodesign" target="_blank"><img src="/images/github.svg" style="width:1rem;height:1rem;margin-right:6px;">GitHub</a>
     - <a class="menu-more-row" href="http://twitter.com/icodesign_me" target="_blank"><img src="/images/twitter_round.svg" style="width:1rem;height:1rem;margin-right:6px;">Twitter</a>
-
-<br />
-<br />
