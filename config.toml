@@ -26,4 +26,6 @@ googleAnalytics = "UA-38012898-4"
     keywords = "科技, 编程, swift, ios, 全栈"
 
 [markup.goldmark.renderer]
+# By default, Goldmark does not render raw HTMLs and potentially dangerous links. 
+# If you have lots of inline HTML and/or JavaScript, you may need to turn this on.
 unsafe= true
