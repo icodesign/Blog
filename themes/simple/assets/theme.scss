@@ -83,6 +83,10 @@ a {
 
 .menu {
   padding: $padding-16 * 2 $padding-16;
+  h1 {
+    font-size: 1em;
+  }
+  
   nav {
     ul {
       padding: 0;
