@@ -14,7 +14,7 @@ headless: true
 - <strong class="menu-title" style="color:#8E44AD;"><h1>项目</h1></strong>
 
     - [Potasto for iOS - 强大的网络工具](https://download-lite.potatso.com)
-    - [Cuto for iOS/Android - 为你挑选最适合的手机壁纸](https://itunes.apple.com/us/app/cuto-wallpaper/id1068086465?mt=8)
+    - [Cuto for iOS/Android - 为你挑选最适合的手机壁纸](https://app.cutowallpaper.com)
 
 - <strong class="menu-title" style="color:#1C7C66;"><h1>更多</h1></strong>
 
