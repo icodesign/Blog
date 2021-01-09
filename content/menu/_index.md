@@ -4,6 +4,7 @@ headless: true
 
 - <h1><strong class="menu-title" style="color:#2678AD;">文章</strong></h1>
 
+    - <span class="menu-date">Jan 09, 2020</span> [Cuto 2.0 背后的故事]({{< relref "/posts/cuto2-story.md" >}})
     - <span class="menu-date">Jan 28, 2020</span> [谈谈团队远程协作]({{< relref "/posts/remote-working.md" >}})
     - <span class="menu-date">Jun 07, 2019</span> [Swift Combine 入门导读]({{< relref "/posts/swift-combine.md" >}})
     - <span class="menu-date">Apr 18, 2019</span> [站立办公]({{< relref "/posts/standing-work.md" >}})
