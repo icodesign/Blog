@@ -19,6 +19,6 @@ headless: true
 - <strong class="menu-title" style="color:#1C7C66;"><h1>更多</h1></strong>
 
     - <a class="menu-more-row" href="/index.xml" target="_blank"><img src="/images/rss.svg" style="width:1rem;height:1rem;margin-right:6px;" alt="RSS">RSS 订阅</a>
-    - <a class="menu-more-row" href="https://hello.icodesign.me" target="_blank" rel="noreferrer nofollow"><img src="/images/podcast.svg" style="width:1rem;height:1rem;margin-right:6px;" alt="Hello World! Podcast">Hello World! Podcast</a>
+    <!-- - <a class="menu-more-row" href="https://hello.icodesign.me" target="_blank" rel="noreferrer nofollow"><img src="/images/podcast.svg" style="width:1rem;height:1rem;margin-right:6px;" alt="Hello World! Podcast">Hello World! Podcast</a> -->
     - <a class="menu-more-row" href="https://github.com/icodesign" target="_blank" rel="noreferrer nofollow"><img src="/images/github.svg" style="width:1rem;height:1rem;margin-right:6px;" alt="GitHub">GitHub</a>
     - <a class="menu-more-row" href="http://twitter.com/icodesign_me" target="_blank" rel="noreferrer nofollow"><img src="/images/twitter_round.svg" style="width:1rem;height:1rem;margin-right:6px;" alt="Twitter">Twitter</a>
