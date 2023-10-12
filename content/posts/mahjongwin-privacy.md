@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-date: 2023-10-12T19:37:08+08:00
+date: 2023-10-12T09:37:08+08:00
 ---
 
 Last updated: October 12, 2023
